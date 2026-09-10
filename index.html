@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=no">
+    <title>Our Record Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="room">
+        <!-- Room Elements -->
+        <div class="wall wall-left"></div>
+        <div class="wall wall-right"></div>
+        <div class="wall wall-back"></div>
+        <div class="floor"></div>
+        
+        <!-- Pink Floyd Poster - Accurate Dark Side of the Moon -->
+        <div class="poster">
+            <div class="poster-content">
+                <div class="poster-triangle"></div>
+                <div class="poster-rainbow"></div>
+                <div class="poster-light"></div>
+                <div class="poster-text">PINK FLOYD</div>
+                <div class="poster-subtext">THE DARK SIDE OF THE MOON</div>
+            </div>
+        </div>
+
+        <!-- Floor Lamp - Tall curved lamp -->
+        <div class="floor-lamp">
+            <div class="lamp-pole"></div>
+            <div class="lamp-curve"></div>
+            <div class="lamp-shade">
+                <div class="lamp-glow"></div>
+            </div>
+            <div class="lamp-base"></div>
+        </div>
+
+        <!-- Potted Plants -->
+        <!-- Plant 1 - Tall Monstera -->
+        <div class="plant plant-1">
+            <div class="plant-pot"></div>
+            <div class="plant-stem plant-stem-1"></div>
+            <div class="plant-stem plant-stem-2"></div>
+            <div class="plant-stem plant-stem-3"></div>
+            <div class="plant-leaf plant-leaf-1"></div>
+            <div class="plant-leaf plant-leaf-2"></div>
+            <div class="plant-leaf plant-leaf-3"></div>
+            <div class="plant-leaf plant-leaf-4"></div>
+        </div>
+
+        <!-- Plant 2 - Small succulent -->
+        <div class="plant plant-2">
+            <div class="plant-pot-small"></div>
+            <div class="succulent succulent-1"></div>
+            <div class="succulent succulent-2"></div>
+            <div class="succulent succulent-3"></div>
+            <div class="succulent succulent-4"></div>
+        </div>
+
+        <!-- Plant 3 - Hanging plant -->
+        <div class="plant plant-3">
+            <div class="hanging-pot"></div>
+            <div class="hanging-vine vine-1"></div>
+            <div class="hanging-vine vine-2"></div>
+            <div class="hanging-vine vine-3"></div>
+        </div>
+
+        <!-- Sofa -->
+        <div class="sofa">
+            <div class="sofa-base"></div>
+            <div class="sofa-cushion"></div>
+            <div class="sofa-arm-left"></div>
+            <div class="sofa-arm-right"></div>
+            <div class="sofa-back"></div>
+        </div>
+
+        <!-- Moroccan Rug -->
+        <div class="rug-moroccan">
+            <div class="rug-pattern"></div>
+            <div class="rug-pattern rug-pattern-2"></div>
+            <div class="rug-pattern rug-pattern-3"></div>
+            <div class="rug-border"></div>
+        </div>
+
+        <!-- Main Container - Smaller -->
+        <div class="container">
+            <!-- Kallax Unit -->
+            <div class="kallax">
+                <div class="kallax-title">RECORDS</div>
+                <div class="kallax-grid" id="shelf">
+                    <!-- Records will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Record Player -->
+            <div class="record-player" id="recordPlayer">
+                <div class="player-base">
+                    <div class="turntable">
+                        <div class="platter" id="platter">
+                            <div class="platter-center"></div>
+                        </div>
+                        <div class="tonearm" id="tonearm">
+                            <div class="tonearm-base"></div>
+                            <div class="tonearm-arm"></div>
+                            <div class="tonearm-head"></div>
+                        </div>
+                        <div class="record-on-player" id="recordOnPlayer"></div>
+                    </div>
+                    <div class="player-controls">
+                        <div class="control-button"></div>
+                        <div class="control-button"></div>
+                        <div class="control-button"></div>
+                    </div>
+                    <div class="player-label">TURNTABLE</div>
+                </div>
+            </div>
+
+            <!-- Message Box -->
+            <div class="message-box" id="messageBox">
+                <div class="message-content">
+                    <p id="songMessage">Choose a record</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
