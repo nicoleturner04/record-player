@@ -58,7 +58,7 @@ const records = [
         name: "Tangerine",
         artist: "Led Zeppelin",
         message: "I don't know just funny. I bet this song reminds you of me",
-        audioFile: "songs/song7.mp3",
+        audioFile: "songs/tangerine.mp3",
         sleeveColor: "#fd79a8",
         sleeveTextColor: "#ffffff"
     },
@@ -67,7 +67,7 @@ const records = [
         name: "While my guitar gently weeps",
         artist: "The Beatles",
         message: "When you came up in the taxi and this song came on as we were driving into Manchester and you could see the skyline but you were being bare annoying and pretending to know the lyrics but it was actuallly quite funny and I love you sometimes.",
-        audioFile: "songs/song8.mp3",
+        audioFile: "songs/guitar.mp3",
         sleeveColor: "#00b894",
         sleeveTextColor: "#ffffff"
     },
@@ -76,16 +76,16 @@ const records = [
         name: "The Rain Song",
         artist: "Led Zeppelin",
         message: "I want to make this our song because it's so beautiful and it was so nice when we came back from a night out and got silly and listened to this song like three times and I really like it and it's almost as beautiful as you. Fit.",
-        audioFile: "songs/song9.mp3",
+        audioFile: "songs/rain.mp3",
         sleeveColor: "#fdcb6e",
         sleeveTextColor: "#2a1a10"
     },
     {
         id: 10,
-        name: "Your Song Title",
-        artist: "Artist Name",
-        message: "Your message here...",
-        audioFile: "songs/song10.mp3",
+        name: "Don't Panic",
+        artist: "Coldplay",
+        message: "Beautiful song for beautiful James",
+        audioFile: "songs/coldplay.mp3",
         sleeveColor: "#e17055",
         sleeveTextColor: "#ffffff"
     }
