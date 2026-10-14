@@ -88,6 +88,34 @@ const records = [
         audioFile: "songs/coldplay.mp3",
         sleeveColor: "#e17055",
         sleeveTextColor: "#ffffff"
+    },
+    {
+        id: 11,
+        name: "",
+        artist: "",
+        message: "",
+        audioFile: "",
+        sleeveColor: "",
+        sleeveTextColor: ""
+
+    },
+    {
+        id: 12,
+        name: "",
+        artist: "",
+        message: "",
+        audioFile: "",
+        sleeveColor: "",
+        sleeveTextColor: ""
+    },
+    {
+        id: 13,
+        name: "",
+        artist: "",
+        message: "",
+        audioFile: "",
+        sleeveColor: "",
+        sleeveTextColor: ""
     }
 ];
 
